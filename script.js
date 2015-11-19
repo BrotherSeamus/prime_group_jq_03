@@ -97,7 +97,7 @@ $(function(){
 				
 			 	startPoint += teamSize;
 			 	endPoint += teamSize;
-			 	var teamRegister = '<h3 class="team">Team ' + teamName + ':</h3><p> ' + 
+			 	var teamRegister = '<h3>Team ' + teamName + ':</h3><p> ' + 
 			 	tempTeam + '</p>'
 				
 			 	$('#team' + i).append(teamRegister);
